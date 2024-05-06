@@ -9,13 +9,688 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
     rel="stylesheet">
-    <a href="https://www.flaticon.com/free-icons/hotel" title="hotel icons"></a>
+  <a href="https://www.flaticon.com/free-icons/hotel" title="hotel icons"></a>
   <title>assignment-02</title>
+
+  <style>
+    .head {
+      width: 1300px;
+      height: 150px;
+      margin-left: 130px;
+      display: flex;
+    }
+
+    .bindhu {
+      margin-left: 390px;
+      display: flex;
+      margin-top: 10px;
+      font-size: 18px;
+      color: #424247;
+      font-family: Mulish, sans-serif;
+      font-weight: 400;
+      font-style: normal;
+    }
+
+    .manu {
+      width: 50px;
+      height: 50px;
+      margin-top: 20px;
+      margin-left: 35px;
+    }
+
+    .banner_one {
+      margin-left: 135px;
+      width: 1190px;
+      height: 500px;
+      background-image: url('Images/Group\ 13\ \(1\)\ \(1\).png');
+    }
+
+    .banner_2 {
+      text-align: center;
+      color: #FFFFFF;
+      padding-top: 100px;
+    }
+
+    .banner_3 {
+      font-size: 64px;
+      font-family: Mulish, sans-serif;
+      font-weight: 800;
+      font-style: normal;
+    }
+
+    .banner_4 {
+      font-size: 16px;
+      font-family: Mulish, sans-serif;
+      font-weight: 400;
+      font-style: normal;
+    }
+
+    .banner_5 {
+      border-radius: 8px;
+      margin-left: 200px;
+      background-color: #FFFFFF4D;
+      width: 820px;
+      height: 84px;
+    }
+
+    .banner_6 {
+      font-size: 16px;
+      color: #13131880;
+      display: flex;
+      padding-top: 15px;
+      padding-left: 23px;
+      text-align: center;
+    }
+
+    .banner_7 {
+      border-radius: 8px;
+      width: 174px;
+      height: 52px;
+      background-color: #FFFFFF;
+      margin-right: 25px;
+    }
+
+    .banner_8 {
+      border-radius: 8px;
+      width: 174px;
+      height: 52px;
+      background-color: #FFFFFF;
+      margin-right: 25px;
+    }
+
+    .banner_9 {
+      border-radius: 8px;
+      width: 174px;
+      height: 52px;
+      background-color: #FFFFFF;
+      margin-right: 25px;
+    }
+
+    .banner_10 {
+      border-radius: 8px;
+      width: 174px;
+      height: 52px;
+      background-color: #FF5400;
+    }
+
+    .pad-1 {}
+
+    .pad-2 {}
+
+    .pad-3 {}
+
+    .pad-4 {}
+
+    .our-1 {
+      display: flex;
+      margin-top: 100px;
+      margin-left: 135px;
+      margin-bottom: 100px;
+    }
+
+    .our-2 {
+      margin-right: 120px;
+      width: 540px;
+      height: 550px;
+      color: #131318B3;
+      font-size: 16px;
+      font-family: Mulish, sans-serif;
+      font-weight: 400;
+      font-style: normal;
+    }
+
+    .our-3 {
+      width: 540px;
+      height: 550px;
+    }
+
+    .our-4 {}
+
+    .des-1 {
+      display: flex;
+      margin-left: 150px;
+      color: #FFFFFF;
+      margin-bottom: 25px;
+    }
+
+    .des-2 {
+      text-align: center;
+      margin-right: 25px;
+      background-image: url('Images/Rectangle 5.png');
+      width: 573px;
+      height: 300px;
+    }
+
+    .des-3 {
+      margin-top: 125px;
+    }
+
+    .des-4 {
+      text-align: center;
+      background-image: url('Images/Rectangle\ 8.png');
+      width: 573px;
+      height: 300px;
+    }
+
+    .des-5 {
+      margin-top: 125px;
+    }
+
+    .des-6 {
+      display: flex;
+      margin-left: 145px;
+    }
+
+    .des-7 {
+      color: #FFFFFF;
+      text-align: center;
+      margin-right: 25px;
+      background-image: url('Images/Rectangle\ 6.png');
+      width: 374px;
+      height: 286px;
+    }
+
+    .des-8 {
+      margin-top: 125px;
+    }
+
+    .des-9 {
+      color: #FFFFFF;
+      text-align: center;
+      margin-right: 25px;
+      background-image: url('Images/Rectangle\ 7.png');
+      width: 474px;
+      height: 286px;
+    }
+
+    .des-10 {
+      margin-top: 125px;
+    }
+
+    .des-11 {
+      color: #FFFFFF;
+      text-align: center;
+      background-image: url('Images/Rectangle\ 9.png');
+      width: 274px;
+      height: 286px;
+    }
+
+    .des-12 {
+      margin-top: 125px;
+    }
+
+    .des-13 {
+      display: flex;
+      margin-top: 25px;
+      margin-left: 142px;
+    }
+
+    .des-14 {
+      margin-right: 25px;
+      width: 473px;
+      height: 300px;
+      color: #FFFFFF;
+      text-align: center;
+      background-image: url('Images/Rectangle\ 11.png');
+    }
+
+    .des-15 {
+      margin-top: 125px;
+    }
+
+    .des-16 {
+      width: 673px;
+      height: 300px;
+      color: #FFFFFF;
+      text-align: center;
+      background-image: url('Images/Rectangle\ 10.png');
+    }
+
+    .des-17 {
+      margin-top: 125px;
+    }
+
+    .cho-1 {
+      display: flex;
+      margin-left: 135px;
+    }
+
+    .cho-2 {
+      border-radius: 16px;
+      width: 570px;
+      height: 280;
+      background-color: #FBB5630D;
+      padding-left: 32px;
+      margin-right: 25px;
+    }
+
+    .cho-3 {
+      border-radius: 16px;
+      width: 530px;
+      height: 280;
+      background-color: #29CEF60D;
+      padding-left: 32px;
+    }
+
+    .cho-4 {
+      border-radius: 16px;
+      margin-top: 25px;
+      padding-top: 15px;
+      padding-left: 32px;
+      margin-left: 400px;
+      width: 570px;
+      height: 280;
+      background-color: #E944440D;
+      padding-left: 32px;
+    }
+
+    .last-1 {
+      display: flex;
+      margin-left: 135px;
+    }
+
+    .last-2 {
+      padding-top: 10px;
+      padding-left: 80px;
+      width: 520px;
+      height: 420px;
+      border: solid #FF5400;
+      margin-right: 30px;
+      border-radius: 16px;
+    }
+
+    .input-1 {
+      text-align: center;
+      background-color: #1313180D;
+      border-radius: 8px;
+      width: 400px;
+      height: 50px;
+    }
+
+    .input-2 {
+      text-align: center;
+      background-color: #1313180D;
+      border-radius: 8px;
+      width: 400px;
+      height: 50px;
+    }
+
+    .input-3 {
+      background-color: #FF5400;
+      border-radius: 8px;
+      width: 410px;
+      height: 55px;
+      color: #FFFFFF;
+    }
+
+    .image {
+      width: 610px;
+      height: 425px;
+      background-image: url('Images/Group\ 40089.png');
+    }
+
+    .footer {
+      width: 1460px;
+      height: 500px;
+      background-color: #1313180D;
+    }
+
+    .footer-1 {
+      display: flex;
+      margin-left: 620px;
+    }
+
+    .footer-2 {
+      display: flex;
+      align-items: center;
+      padding-top: 100px;
+      padding-left: 650px;
+    }
+
+    .footer-3 {
+      margin-top: 100px;
+      margin-left: 620px;
+    }
+    .extra-1{
+      display: flex;
+    }
+    .extra-2{
+      margin-top: 50px; margin-bottom: 50px; margin-left: 130px;
+    }
+
+
+    /* ---------------------------------------------------------------------- */
+
+    @media screen and (min-width:1200px) {
+      .manu {
+        display: none;
+      }
+
+    }
+
+    @media screen and (max-width:576px) {
+      .head {
+        width: 600px;
+        margin-left: 20px;
+      }
+
+      .bindhu {
+        display: none;
+      }
+
+      .banner_one {
+        margin-left: 20px;
+        width: 365px;
+        height: 480px;
+        border-radius: 16px;
+      }
+
+      .banner_2 {
+        padding-top: 50px;
+        font-size: 16px;
+      }
+
+      .banner_3 {
+        font-size: 22px;
+      }
+
+      .banner_4 {
+        font-size: 14px;
+      }
+
+      .banner_5 {
+        margin-left: 20px;
+        width: 330px;
+        height: 300px;
+      }
+
+      .banner_6 {
+
+        padding-left: 10px;
+        display: block;
+        padding-top: 5px;
+      }
+
+      .banner_7 {
+        width: 305px;
+        text-align: center;
+      }
+
+      .banner_8 {
+        width: 305px;
+        text-align: center;
+        padding-left: 5px;
+
+      }
+
+      .banner_9 {
+        width: 305px;
+        text-align: center;
+      }
+
+      .banner_10 {
+        width: 305px;
+        text-align: center;
+      }
+
+      .pad-1 {
+        padding-top: 15px;
+      }
+
+      .pad-2 {
+        padding-top: 15px;
+      }
+
+      .pad-3 {
+        padding-top: 15px;
+      }
+
+      .pad-4 {
+        padding-top: 15px;
+      }
+
+      .our-1 {
+        display: block;
+        margin-left: 20px;
+      }
+
+      .our-2 {
+        margin-bottom: 400px;
+        width: 350px;
+        height: 500px;
+        font-size: 16px;
+        font-family: Mulish, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+
+      .our-3 {
+        width: 360px;
+        height: 350px;
+      }
+
+      .our-4 {}
+
+      .des-1 {
+        display: block;
+        margin-left: 20px;
+        color: #FFFFFF;
+        margin-bottom: 10px;
+      }
+
+      .des-2 {
+        text-align: center;
+        background-image: url('Images/Rectangle 5.png');
+        width: 362px;
+        height: 230px;
+        border-radius: 16px;
+      }
+
+      .des-3 {
+        margin-top: 25px;
+        padding-top: 100px;
+      }
+
+      .des-4 {
+        text-align: center;
+        background-image: url('Images/Rectangle\ 8.png');
+        width: 362px;
+        height: 230px;
+        border-radius: 16px;
+      }
+
+      .des-5 {
+        margin-top: 25px;
+        padding-top: 100px;
+      }
+
+      .des-6 {
+        display: block;
+        margin-left: 20px;
+      }
+
+      .des-7 {
+        color: #FFFFFF;
+        text-align: center;
+        margin-right: 25px;
+        background-image: url('Images/Rectangle\ 6.png');
+        width: 362px;
+        height: 230px;
+        border-radius: 16px;
+      }
+
+      .des-8 {
+        margin-top: 25px;
+        padding-top: 100px;
+      }
+
+      .des-9 {
+        color: #FFFFFF;
+        text-align: center;
+        margin-right: 25px;
+        background-image: url('Images/Rectangle\ 7.png');
+        width: 362px;
+        height: 230px;
+        border-radius: 16px;
+      }
+
+      .des-10 {
+        margin-top: 25px;
+        padding-top: 100px;
+      }
+
+      .des-11 {
+        color: #FFFFFF;
+        text-align: center;
+        margin-right: 25px;
+        background-image: url('Images/Rectangle\ 9.png');
+        width: 362px;
+        height: 230px;
+        border-radius: 16px;
+      }
+
+      .des-12 {
+        margin-top: 25px;
+        padding-top: 100px;
+      }
+
+      .des-13 {
+        display: block;
+        margin-top: 25px;
+        margin-left: 20px;
+      }
+
+      .des-14 {
+        margin-right: 25px;
+        width: 362px;
+        height: 230px;
+        border-radius: 16px;
+        color: #FFFFFF;
+        text-align: center;
+        background-image: url('Images/Rectangle\ 11.png');
+      }
+
+      .des-15 {
+        margin-top: 25px;
+        padding-top: 100px;
+      }
+
+      .des-16 {
+        width: 362px;
+        height: 230px;
+        border-radius: 16px;
+        color: #FFFFFF;
+        text-align: center;
+        background-image: url('Images/Rectangle\ 10.png');
+      }
+
+      .des-17 {
+        margin-top: 25px;
+        padding-top: 100px;
+      }
+
+      .cho-1 {
+        display: block;
+        margin-left: 20px;
+      }
+
+      .cho-2 {
+        border-radius: 16px;
+        width: 350px;
+        height: 290;
+        background-color: #FBB5630D;
+        padding-left: 20px;
+      }
+
+      .cho-3 {
+        border-radius: 16px;
+        width: 350px;
+        height: 290;
+        background-color: #29CEF60D;
+        padding-left: 20px;
+        margin-top: 20px;
+      }
+
+      .cho-4 {
+        border-radius: 16px;
+        margin-top: 25px;
+        padding-top: 15px;
+        padding-left: 20px;
+        width: 350px;
+        height: 290;
+        background-color: #E944440D;
+        margin-left: 20px;
+      }
+
+      .last-1 {
+        display: block;
+        margin-left: 20px;
+      }
+
+      .last-2 {
+        padding-top: 10px;
+        padding-left: 20px;
+        width: 340px;
+        height: 400px;
+        border: solid #FF5400;
+        border-radius: 16px;
+        margin-bottom: 20px;
+      }
+
+      .input-1 {
+        width: 310px;
+        height: 50px;
+      }
+
+      .input-2 {
+        width: 310px;
+        height: 50px;
+      }
+
+      .input-3 {
+        width: 310px;
+        height: 50px;
+      }
+
+      .image {
+        width: 360px;
+        height: 300px;
+        border-radius: 18px;
+      }
+
+      .footer {
+        width: 400px;
+        height: 400px;
+        background-color: #1313180D;
+      }
+
+      .footer-1 {
+        margin-left: 60px;
+      }
+
+      .footer-2 {
+        padding-top: 50px;
+        padding-left: 100px;
+      }
+
+      .footer-3 {
+        margin-top: 20px;
+        margin-left: 70px;
+      }
+      .extra-1{
+        display: block;
+      }
+      .extra-2{
+        margin-top: 50px; margin-bottom: 50px; margin-left: 5px;
+      }
+
+    }
+  </style>
 </head>
 
 <body>
   <header>
-    <div style="width: 1300px; height: 150px; margin-left: 130px; display: flex;">
+    <div class="head">
       <div style="display: flex;">
         <div style="margin-top: 18px; margin-right: 10px;">
           <img src="images/Group 40071 (2).png" alt="">
@@ -25,8 +700,7 @@
             normal;">Bangla <span style="color: #FF5400;">Travel</span></h1>
         </div>
       </div>
-      <div class="nav" style="margin-left: 390px; display: flex;margin-top: 10px; font-size: 18px; color: #424247; font-family:  Mulish, sans-serif;
-        font-weight: 400; font-style: normal;">
+      <div class="bindhu" style="">
         <div style="margin-right: 25px;">
           <h3 style="color: #FF5400; font-family:  Mulish, sans-serif; font-weight: 700; font-style: normal;">Home
           </h3>
@@ -44,37 +718,36 @@
           <h3>Contact</h3>
         </div>
       </div>
+      <div>
+        <img class="manu" src="Images/menu.png" alt="">
+      </div>
 
     </div>
   </header>
   <main>
     <!-- --------------------Banner section----------- -->
     <section>
-      <div
-        style="margin-left: 135px; width: 1190px; height: 500px; background-image: url('Images/Group\ 13\ \(1\)\ \(1\).png'); ">
-        <div style="  text-align: center; color: #FFFFFF;padding-top: 100px;">
-          <h1 style="font-size: 64px; font-family:  Mulish, sans-serif; font-weight: 800; font-style: normal;">Explore
+      <div class="banner_one">
+        <div class="banner_2">
+          <h1 class="banner_3">Explore
             Your Travel</h1>
-          <h3 style="font-size: 16px; font-family:  Mulish, sans-serif; font-weight: 400; font-style: normal; ">Dolor
+          <h3 class="banner_4" style=" ">Dolor
             sit amet consectetur. Nullam suspendisse vitae ultricies dolor adipiscing. In et odio <br> enim ac
             quis sapien urna eu phasellus.</h3>
         </div>
-        <div
-          style=" border-radius: 8px; margin-left: 200px;  background-color: #FFFFFF4D;  width: 820px; height: 84px; ">
-          <div
-            style="font-size: 16px; color: #13131880; display: flex; padding-top: 15px; padding-left: 23px; text-align: center;">
-            <div
-              style="  border-radius: 8px; width: 174px; height: 52px; background-color:#FFFFFF  ; margin-right: 25px;">
-              <h3>Where go</h3>
+        <div class="banner_5">
+          <div class="banner_6">
+            <div class="banner_7">
+              <h3 class="pad-1" style="">Where go</h3>
             </div>
-            <div style="border-radius: 8px; width: 174px; height: 52px; background-color:#FFFFFF ; margin-right: 25px;">
-              <h3>When</h3>
+            <div class="banner_8">
+              <h3 class="pad-2">When</h3>
             </div>
-            <div style="border-radius: 8px; width: 174px; height: 52px; background-color:#FFFFFF ; margin-right: 25px;">
-              <h3>Select</h3>
+            <div class="banner_9">
+              <h3 class="pad-3">Select</h3>
             </div>
-            <div style="border-radius: 8px; width: 174px; height: 52px; background-color:#FF5400 ;">
-              <h3>Find Now</h3>
+            <div class="banner_10">
+              <h3 class="pad-4">Find Now</h3>
             </div>
           </div>
 
@@ -82,10 +755,10 @@
       </div>
 
     </section>
+    <!-- ----------------------our section-------------- -->
     <section>
-      <div style="display: flex; margin-top: 100px; margin-left: 135px; margin-bottom: 100px;">
-        <div style="margin-right: 120px; width: 540px; height: 550px; color: #131318B3; font-size: 16px; font-family: Mulish, sans-serif; font-weight: 400; font-style:
-          normal;">
+      <div class="our-1">
+        <div class="our-2">
           <h1 style="color: #131318; font-size: 40px; font-family:  Mulish, sans-serif; font-weight: 800; font-style:
             normal;">Our Popular Tours</h1>
           <h3>Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit <br> massa. Sodales dictumst
@@ -103,8 +776,9 @@
             More</button>
 
         </div>
-        <div>
-          <img style="width: 540px; height: 550px;" src="Images/Rectangle 11.png" alt="">
+
+        <div class="our-4">
+          <img class="our-3" src="Images/Rectangle 11.png" alt="">
 
         </div>
 
@@ -124,38 +798,31 @@
             nec nibh pellentesque.
           </h3>
         </div>
-        <div style="display: flex; margin-left: 150px; color: #FFFFFF; margin-bottom: 25px;">
-          <div
-            style="text-align: center; margin-right: 25px; background-image: url('Images/Rectangle 5.png'); width: 573px; height: 300px;">
-            <h2 style=" margin-top: 125px;">Maldives</h2>
+        <div class="des-1">
+          <div class="des-2">
+            <h2 class="des-3">Maldives</h2>
           </div>
-          <div
-            style="text-align: center;  background-image: url('Images/Rectangle\ 8.png'); width: 573px; height: 300px;">
-            <h2 style="margin-top: 125px;">Indonesia</h2>
+          <div class="des-4">
+            <h2 class="des-5">Indonesia</h2>
           </div>
         </div>
-        <div style="display: flex; margin-left: 145px; ">
-          <div
-            style="color: #FFFFFF; text-align: center; margin-right: 25px; background-image: url('Images/Rectangle\ 6.png'); width: 374px; height: 286px;">
-            <h2 style="margin-top: 125px;">Srilanka</h2>
+        <div class="des-6">
+          <div class="des-7">
+            <h2 class="des-8">Srilanka</h2>
           </div>
-          <div
-            style="color: #FFFFFF; text-align: center; margin-right: 25px; background-image: url('Images/Rectangle\ 7.png'); width: 474px;  height: 286px;">
-            <h2 style="margin-top: 125px;">North America</h2>
+          <div class="des-9">
+            <h2 class="des-10">North America</h2>
           </div>
-          <div
-            style="color: #FFFFFF; text-align: center; background-image: url('Images/Rectangle\ 9.png'); width: 274px; height: 286px;">
-            <h2 style="margin-top: 125px;">Kashmir</h2>
+          <div class="des-11">
+            <h2 class="des-12">Kashmir</h2>
           </div>
         </div>
-        <div style="display: flex; margin-top: 25px; margin-left: 142px;">
-          <div
-            style="margin-right: 25px; width: 473px; height: 300px; color: #FFFFFF; text-align: center; background-image: url('Images/Rectangle\ 11.png');">
-            <h2 style="margin-top: 125px;">Bangladesh</h2>
+        <div class="des-13">
+          <div class="des-14">
+            <h2 class="des-15">Bangladesh</h2>
           </div>
-          <div
-            style="width: 673px; height: 300px; color: #FFFFFF; text-align: center; background-image: url('Images/Rectangle\ 10.png');">
-            <h2 style="margin-top: 125px;">Bandarban</h2>
+          <div class="des-16">
+            <h2 class="des-17">Bandarban</h2>
           </div>
         </div>
       </div>
@@ -170,11 +837,11 @@
           nibh pellentesque.</h2>
       </div>
     </section>
+    <!-- ------------------Choose section---------------- -->
     <section>
       <div style="margin-bottom: 100px; margin-top: 50px;">
-        <div style="display: flex; margin-left: 135px; ">
-          <div
-            style="border-radius: 16px; width: 570px; height: 280; background-color: #FBB5630D; padding-left: 32px; margin-right: 25px;">
+        <div class="cho-1">
+          <div class="cho-2">
 
             <h2><img style="width: 50px; height: 50px;" src="Images/hotel.png" alt=""></h2>
             <h1
@@ -187,7 +854,7 @@
               sagittis dignissim adipiscing quis. <br> Habitant adipiscing risus natoque aliquet. </p>
 
           </div>
-          <div style="border-radius: 16px; width: 530px; height: 280; background-color: #29CEF60D; padding-left: 32px;">
+          <div class="cho-3">
             <h2><img style="width: 50px; height: 50px;" src="Images/map.png" alt=""></h2>
             <h1
               style="color: #131318; font-size: 24; font-family:  Mulish, sans-serif; font-weight: 800; font-style: normal;">
@@ -198,8 +865,7 @@
               sagittis dignissim adipiscing quis. <br> Habitant adipiscing risus natoque aliquet. </p>
           </div>
         </div>
-        <div
-          style="border-radius: 16px; margin-top: 25px; padding-top: 15px; padding-left: 32px; margin-left: 400px; width: 570px; height: 280; background-color: #E944440D; padding-left: 32px;">
+        <div class="cho-4">
           <h2><img style="width: 50px; height: 50px;" src="Images/offer.png" alt=""></h2>
           <h1
             style="color: #131318; font-size: 24; font-family:  Mulish, sans-serif; font-weight: 800; font-style: normal;">
@@ -212,34 +878,57 @@
 
       </div>
     </section>
+    <!-- -------------Extra Section-------------------- -->
+    <section>
+      <div class="extra-2" >
+        <div style="text-align: center; color: #131318; ">
+          <h2 style="font-size: 30px; font-family:  Mulish, sans-serif; font-weight: 700; font-style: normal;">THINGS TO
+            DO</h2>
+          <p style=" font-size: 25px; color: #FF5400; font-family: Mulish , sans-serif; font-weight: 500; font-style: normal;">ENJOY YOUR TIME WITH PLEASURE</p>
+        </div>
+        <div class="extra-1" >
+          <div style=" margin-right: 10px;">
+            <img style="width: 400px; height: 400px;" src="https://i.ibb.co/bBR9XN0/pexels-julia-m-cameron-8841157-1.jpg" alt="">
+            <h2 style="text-align: center;">OUTDOOR BBQ</h2>
+            <p style="text-align: center;"> Outdoor BBQ Is A Truely Unique & <br> Interactive Experience</p>
+          </div>
+          <div style=" margin-right: 10px;">
+            <img style="width: 400px; height: 400px;" src="https://i.ibb.co/Ch5bszh/oziel-gomez-Ib-LZj-Kcelp-M-unsplash.jpg" alt="">
+            <h2 style="text-align: center;">NATURE WALK</h2>
+            <p style="text-align: center;">Stroll Around And Fill Your Lungs With <br> Pure Oxygen</p>
+          </div>
+          <div style="">
+            <img style="width: 400px; height: 400px;" src="https://i.ibb.co/wR3jyYM/eleanor-carter-2-Wyi2hse-KAk-unsplash.jpg" alt="">
+            <h2 style="text-align: center;">LAKE SWIMMING</h2>
+            <p style="text-align: center;">The Water Is Very Clean,Freash And Safe <br> That best For Your Health</p>
+          </div>
+          
+        </div>
+
+    </section>
+
     <!-- -------------------Last section------------ -->
     <section>
       <div style="margin-bottom: 100px;">
-        <div style="display: flex; margin-left: 135px;">
-          <div
-            style="padding-top: 10px; padding-left: 80px; width: 520px; height: 420px; border: solid #FF5400; margin-right: 30px; border-radius: 16px;">
+        <div class="last-1">
+          <div class="last-2">
             <h2 style="color: #131318; font-size: 24px; font-family:  Mulish, sans-serif; font-weight: 800;
               font-style: normal;">Newsletter</h2>
             <p style="color: #5A5A5D; font-size: 16px; font-family:  Mulish, sans-serif; font-weight: 400; font-style:
               normal;">Get your daily dose of travel news & tips. Sign <br> up today!</p>
 
             <div style="margin-bottom: 25px;">
-              <input
-                style=" text-align: center; background-color: #1313180D;border-radius: 8px; width: 400px; height: 50px;"
-                placeholder="Enter your name" type="text">
+              <input class="input-1" placeholder="Enter your name" type="text">
             </div>
             <div style="margin-bottom: 25px;">
-              <input
-                style=" text-align: center; background-color: #1313180D;border-radius: 8px; width: 400px; height: 50px;"
-                placeholder="Enter your email" type="text">
+              <input class="input-2" placeholder="Enter your email" type="text">
             </div>
             <div>
-              <button
-                style=" background-color: #FF5400;border-radius: 8px; width: 410px; height: 55px;">Subscribe</button>
+              <button class="input-3">Subscribe</button>
             </div>
 
           </div>
-          <div style="width: 610px; height: 425px; background-image: url('Images/Group\ 40089.png');">
+          <div class="image">
 
           </div>
         </div>
@@ -249,9 +938,9 @@
 
   </main>
   <footer>
-    <div style="width: 1460px; height: 500px; background-color: #1313180D;">
-      
-      <div style="display: flex; align-items: center; padding-top: 100px; padding-left: 650px;">
+    <div class="footer">
+
+      <div class="footer-2">
         <div>
           <img src="Images/Group 40071 (2).png" alt="">
         </div>
@@ -260,9 +949,11 @@
         </div>
       </div>
       <div style="text-align: center;">
-        <h3>Lorem ipsum dolor sit amet consectetur. Nulla sit viverra morbi vitae blandit orci potenti vulputate. Leo <br> erat maecenas vitae elementum ultricies nullam. </h3>
+        <h3>Lorem ipsum dolor sit amet consectetur. Nulla sit viverra morbi vitae blandit orci potenti vulputate. Leo
+          <br> erat maecenas vitae elementum ultricies nullam.
+        </h3>
       </div>
-      <div style="display: flex; margin-left: 620px;">
+      <div class="footer-1">
         <div style="margin-right: 15px;">
           <img src="Images/Facebook.png" alt="">
         </div>
@@ -276,10 +967,10 @@
           <img src="Images/Linkedin.png" alt="">
         </div>
       </div>
-      <div style="margin-top: 100px; margin-left: 620px;">
+      <div class="footer-3">
         <h2>2017, All Rights Reserved.</h2>
       </div>
- 
+
     </div>
 
   </footer>
